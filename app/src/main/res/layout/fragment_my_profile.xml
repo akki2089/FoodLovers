@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user_image"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_my_profile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:text="User Name"
+        android:id="@+id/txtUser_id"
+        android:layout_below="@id/user_image"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="Mobile Number"
+        android:id="@+id/txtMobile"
+        android:layout_below="@id/txtUser_id"
+        android:background="#fff"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:text="Email ID"
+        android:id="@+id/txtEmail_id"
+        android:layout_below="@id/txtMobile"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="Mobile Number"
+        android:id="@+id/txtlocation"
+        android:layout_below="@id/txtEmail_id"
+        android:background="#fff"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>

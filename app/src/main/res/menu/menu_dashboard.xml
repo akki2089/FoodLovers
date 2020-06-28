@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:orderInCategory="100">
+
+        <item
+            android:id="@+id/costHighFirst"
+            android:title="Cost (High to Low)"
+            android:icon="@drawable/ic_cost_high_first"/>
+
+        <item
+            android:id="@+id/costLowFirst"
+            android:title="Cost (Low to High)"
+            android:icon="@drawable/ic_cost_low_first"/>
+
+        <item
+            android:id="@+id/rating"
+            android:title="Rating"
+            android:icon="@drawable/ic_rating"/>
+
+        <item
+            android:id="@+id/cost"
+            android:title="Cost Per Person"
+            android:icon="@drawable/ic_cost"/>
+
+    </group>
+
+</menu>

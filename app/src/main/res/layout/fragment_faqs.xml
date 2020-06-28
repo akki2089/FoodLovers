@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".fragment.FaqsFragment">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/txtq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#EBFF0000"
+                android:text="@string/q1"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txta1"
+                android:layout_below="@id/txtq1"
+                android:textColor="#E6000000"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:text="@string/a1"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_below="@id/txta1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="#B7000000"
+                android:id="@+id/vline1"/>
+
+            <TextView
+                android:id="@+id/txtq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#EBFF0000"
+                android:text="@string/q2"
+                android:textSize="18sp"
+                android:layout_below="@id/vline1"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txta2"
+                android:layout_below="@id/txtq2"
+                android:textColor="#E6000000"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:text="@string/a2"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_below="@id/txta2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="#B7000000"
+                android:id="@+id/vline2"
+                />
+
+            <TextView
+                android:id="@+id/txtq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#EBFF0000"
+                android:text="@string/q3"
+                android:layout_below="@id/vline2"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txta3"
+                android:layout_below="@id/txtq3"
+                android:textColor="#E6000000"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:text="@string/a3"
+                android:layout_marginLeft="10dp"/>
+
+            <View
+                android:layout_below="@id/txta3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="#B7000000"
+                android:id="@+id/vline3"/>
+
+            <TextView
+                android:id="@+id/txtq4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#EBFF0000"
+                android:text="@string/q4"
+                android:textSize="18sp"
+                android:layout_below="@id/vline3"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txta4"
+                android:layout_below="@id/txtq4"
+                android:textColor="#E6000000"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:text="@string/a4"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_below="@id/txta4"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="#B7000000"
+                android:id="@+id/vline4"/>
+
+            <TextView
+                android:id="@+id/txtq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#EBFF0000"
+                android:text="@string/q5"
+                android:textSize="18sp"
+                android:layout_below="@id/vline4"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txta5"
+                android:layout_below="@id/txtq5"
+                android:textColor="#E6000000"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:text="@string/a5"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_below="@id/txta5"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="#B7000000"
+                android:id="@+id/vline5"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
